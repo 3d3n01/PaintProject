@@ -1,4 +1,4 @@
-# Paintproject
+# PaintProject
 CS114
 Objective:
 To create a simple paint program.
