@@ -1,0 +1,9 @@
+C:\Users\samya\OneDrive - SNHU\Programming\VS code\paint project\paint project CS114\bin\Debug\paint project CS114.exe.config
+C:\Users\samya\OneDrive - SNHU\Programming\VS code\paint project\paint project CS114\bin\Debug\paint project CS114.exe
+C:\Users\samya\OneDrive - SNHU\Programming\VS code\paint project\paint project CS114\bin\Debug\paint project CS114.pdb
+C:\Users\samya\OneDrive - SNHU\Programming\VS code\paint project\paint project CS114\obj\Debug\paint project CS114.csprojAssemblyReference.cache
+C:\Users\samya\OneDrive - SNHU\Programming\VS code\paint project\paint project CS114\obj\Debug\paint_project_CS114.Form1.resources
+C:\Users\samya\OneDrive - SNHU\Programming\VS code\paint project\paint project CS114\obj\Debug\paint_project_CS114.Properties.Resources.resources
+C:\Users\samya\OneDrive - SNHU\Programming\VS code\paint project\paint project CS114\obj\Debug\paint project CS114.csproj.GenerateResource.cache
+C:\Users\samya\OneDrive - SNHU\Programming\VS code\paint project\paint project CS114\obj\Debug\paint project CS114.exe
+C:\Users\samya\OneDrive - SNHU\Programming\VS code\paint project\paint project CS114\obj\Debug\paint project CS114.pdb
