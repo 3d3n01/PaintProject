@@ -1,0 +1,9 @@
+C:\Users\Owner\Desktop\Paintproject\PaintProject\bin\Debug\PaintProject.exe.config
+C:\Users\Owner\Desktop\Paintproject\PaintProject\bin\Debug\PaintProject.exe
+C:\Users\Owner\Desktop\Paintproject\PaintProject\bin\Debug\PaintProject.pdb
+C:\Users\Owner\Desktop\Paintproject\PaintProject\obj\Debug\PaintProject.csprojAssemblyReference.cache
+C:\Users\Owner\Desktop\Paintproject\PaintProject\obj\Debug\PaintProject.PaintWindow.resources
+C:\Users\Owner\Desktop\Paintproject\PaintProject\obj\Debug\PaintProject.Properties.Resources.resources
+C:\Users\Owner\Desktop\Paintproject\PaintProject\obj\Debug\PaintProject.csproj.GenerateResource.cache
+C:\Users\Owner\Desktop\Paintproject\PaintProject\obj\Debug\PaintProject.exe
+C:\Users\Owner\Desktop\Paintproject\PaintProject\obj\Debug\PaintProject.pdb
