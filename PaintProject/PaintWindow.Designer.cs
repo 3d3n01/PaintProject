@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.color_panel = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.clearButton = new System.Windows.Forms.Button();
             this.rectButton = new System.Windows.Forms.Button();
             this.canvas_panel = new System.Windows.Forms.Panel();
@@ -43,16 +43,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.x2 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.y2 = new System.Windows.Forms.Label();
+            this.y2 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.backgroundPanel = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.color_panel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.backgroundPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,38 +70,16 @@
             this.color_panel.Size = new System.Drawing.Size(32, 148);
             this.color_panel.TabIndex = 0;
             // 
-            // pictureBox3
+            // pictureBox5
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Green;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 59);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(32, 27);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.pictureBox4.Location = new System.Drawing.Point(0, 89);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(32, 27);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 30);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(32, 27);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox5.BackColor = System.Drawing.Color.Purple;
+            this.pictureBox5.Location = new System.Drawing.Point(0, 119);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(32, 27);
+            this.pictureBox5.TabIndex = 4;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox1
             // 
@@ -114,16 +92,38 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // pictureBox5
+            // pictureBox2
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Purple;
-            this.pictureBox5.Location = new System.Drawing.Point(0, 119);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(32, 27);
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox2.BackColor = System.Drawing.Color.Yellow;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 30);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(32, 27);
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.pictureBox4.Location = new System.Drawing.Point(0, 89);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(32, 27);
+            this.pictureBox4.TabIndex = 3;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Green;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 59);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(32, 27);
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // clearButton
             // 
@@ -174,6 +174,7 @@
             this.x1.Name = "x1";
             this.x1.Size = new System.Drawing.Size(44, 20);
             this.x1.TabIndex = 8;
+            this.x1.TextChanged += new System.EventHandler(this.x1_TextChanged);
             // 
             // y1
             // 
@@ -181,6 +182,7 @@
             this.y1.Name = "y1";
             this.y1.Size = new System.Drawing.Size(44, 20);
             this.y1.TabIndex = 10;
+            this.y1.TextChanged += new System.EventHandler(this.y1_TextChanged);
             // 
             // label3
             // 
@@ -197,6 +199,7 @@
             this.x2.Name = "x2";
             this.x2.Size = new System.Drawing.Size(44, 20);
             this.x2.TabIndex = 12;
+            this.x2.TextChanged += new System.EventHandler(this.x2_TextChanged);
             // 
             // label5
             // 
@@ -207,27 +210,28 @@
             this.label5.TabIndex = 13;
             this.label5.Text = "x2:";
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(436, 6);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(44, 20);
-            this.textBox3.TabIndex = 14;
-            // 
             // y2
             // 
-            this.y2.AutoSize = true;
-            this.y2.Location = new System.Drawing.Point(414, 10);
+            this.y2.Location = new System.Drawing.Point(436, 6);
             this.y2.Name = "y2";
-            this.y2.Size = new System.Drawing.Size(21, 13);
-            this.y2.TabIndex = 15;
-            this.y2.Text = "y2:";
+            this.y2.Size = new System.Drawing.Size(44, 20);
+            this.y2.TabIndex = 14;
+            this.y2.TextChanged += new System.EventHandler(this.y2_TextChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(414, 10);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(21, 13);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "y2:";
             // 
             // backgroundPanel
             // 
             this.backgroundPanel.BackColor = System.Drawing.Color.Gainsboro;
+            this.backgroundPanel.Controls.Add(this.label4);
             this.backgroundPanel.Controls.Add(this.y2);
-            this.backgroundPanel.Controls.Add(this.textBox3);
             this.backgroundPanel.Controls.Add(this.label5);
             this.backgroundPanel.Controls.Add(this.x2);
             this.backgroundPanel.Controls.Add(this.label3);
@@ -265,11 +269,11 @@
             this.Name = "PaintWindow";
             this.Text = "Paint";
             this.color_panel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.backgroundPanel.ResumeLayout(false);
             this.backgroundPanel.PerformLayout();
             this.ResumeLayout(false);
@@ -293,8 +297,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox x2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label y2;
+        private System.Windows.Forms.TextBox y2;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel backgroundPanel;
         private System.Windows.Forms.Label label2;
     }

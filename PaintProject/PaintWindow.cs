@@ -11,15 +11,13 @@ using System.Drawing.Drawing2D;
 
 namespace PaintProject
 {
-    public partial class PaintWindow : Form
-    {
+    public partial class PaintWindow : Form {
         Graphics g;
         int x = -1;
         int y = -1;
         bool moving = false;
         Pen pen;
-        public PaintWindow()
-        {
+        public PaintWindow() {
             InitializeComponent();
             g = canvas_panel.CreateGraphics();
             g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
@@ -43,8 +41,7 @@ namespace PaintProject
 
         private void canvas_panel_MouseMove(object sender, MouseEventArgs e) //Draws lines that follow the mouse cursor
         {
-            if (moving && x != -1 && y != -1)
-            {
+            if (moving && x != -1 && y != -1) {
                 g.DrawLine(pen, new Point(x, y), e.Location);
                 x = e.X;
                 y = e.Y;
@@ -64,8 +61,65 @@ namespace PaintProject
             Application.Restart();
         }
 
-        private void rectButton_Click(object sender, EventArgs e) {
-            g.DrawRectangle(pen, 10, 10, 50, 50);
+        private void rectButton_Click(object sender, EventArgs e) { //Draws the rectangle using values from textboxes
+            try {
+                g.DrawRectangle(pen, int.Parse(x1.Text), int.Parse(y1.Text), int.Parse(x2.Text), int.Parse(y2.Text));
+                x1.Text = "";
+                y1.Text = "";
+                x2.Text = "";
+                y2.Text = "";
+            }
+            catch (FormatException) { }
         }
-    }  
+        #region resets textbox values if out of range
+        private void x1_TextChanged(object sender, EventArgs e) {
+            try {
+                if (int.Parse(x1.Text) > 533) {
+                    x1.Text = "";
+                    MessageBox.Show("Invalid input!");
+                }
+            }
+            catch (FormatException) {
+                x1.Text = "";
+            }
+        }
+
+        private void y1_TextChanged(object sender, EventArgs e) {
+            try {
+                if (int.Parse(y1.Text) > 362) {
+                    y1.Text = "";
+                    MessageBox.Show("Invalid input!");
+                }
+            }
+            catch (FormatException) {
+                y1.Text = "";
+            }
+        }
+
+        private void x2_TextChanged(object sender, EventArgs e) {
+            try {
+                if ((int.Parse(x1.Text) + int.Parse(x2.Text)) > 533) {
+                    x2.Text = "";
+                    MessageBox.Show("Invalid input!");
+                }
+            }
+            catch (FormatException) {
+                x2.Text = "";
+            }
+        }
+
+        private void y2_TextChanged(object sender, EventArgs e) {
+            try {
+                if ((int.Parse(y1.Text) + int.Parse(y2.Text)) > 362) {
+                    y2.Text = "";
+                    MessageBox.Show("Invalid input!");
+                }
+            }
+            catch (FormatException) {
+                y2.Text = "";
+            }
+        }
+        #endregion
+
+    }
 }
